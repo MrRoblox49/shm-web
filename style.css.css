@@ -1,0 +1,59 @@
+/* รีเซ็ตค่าเริ่มต้นและตั้งค่าพื้นหลังหน้าเว็บ */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* กล่องข้อความสีขาวตรงกลาง */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.06);
+    text-align: center;
+    width: 420px;
+}
+
+h2 {
+    color: #31333f;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* จัดแต่งโซน Slider */
+.controls {
+    margin-bottom: 25px;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-size: 14px;
+    color: #4f515a;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* จัดแต่งกระดานวาดรูป Canvas */
+canvas {
+    border: 1px dashed #cfd4da;
+    border-radius: 6px;
+    background: #ffffff;
+}
